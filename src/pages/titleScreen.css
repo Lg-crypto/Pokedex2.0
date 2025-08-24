@@ -1,0 +1,22 @@
+.titleScreen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffdd00;
+    text-shadow: 2px 2px 4px #000;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+
+}
