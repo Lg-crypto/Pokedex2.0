@@ -4,6 +4,7 @@ import './titleScreen.css'
 export default function TitleScreen({setState}) {
     const audio = new Audio('/titleScreenSound.mp3');
     audio.loop = true;
+    audio.volume = 0.1;
     const handleClick = () => {
         audio.play();
         setState("home");

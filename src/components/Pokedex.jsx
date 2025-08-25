@@ -1,6 +1,5 @@
 import React from 'react';
-import './Pokedex.css'
-import axios from 'axios';
+import './Pokedex.css';
 
 
 export default function Pokedex() {
@@ -39,7 +38,7 @@ export default function Pokedex() {
 
     const nextPokemon = () => {
         let next = id + 1;
-        if (next > 1010) {
+        if (next > 1025) {
             next = 1;
         }
         fetchPokemon(next);
